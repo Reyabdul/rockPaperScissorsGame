@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Rock paper scissors game
+        /*
+            Steps:
+            1 - Get computer choice 
+                randomize number and assign number to rock, paper, or scissor
+            2 - Get player selection
+                prompt screen to get user input
+                must be able to take all case sensitivity
+            3 - Write function that can play one round and delcares winner
+                compare values between computer choice and user selection, then keep tabs of the score
+            4 - Write function called 'game' that plays 5 rounds and keeps score
+                make a function that runs the game 5 times and ends when someone hits 5.
+        */
+
+        //Step 1: Computer's Choice
+        const computerChoice = () => {
+            let randomNumber = Math.floor(Math.random() * 3);
+            if (randomNumber === 0) {
+                return 'rock'
+            } else if (randomNumber === 1) {
+                return 'paper'
+            } else {
+                return 'scissors'
+            }
+        }; 
+        
+        console.log(computerChoice());
+
+        //Step 2: 
+    
+        </script>
+</body>
+</html>
